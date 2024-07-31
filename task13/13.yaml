@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Endpoints
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: "2024-07-31T15:35:52Z"
+  creationTimestamp: "2024-07-31T15:35:52Z"
+  name: flask-service
+  namespace: d-xolmatov
+  resourceVersion: "2468770"
+  uid: d75315a0-b34e-4b39-8e71-b3047205b127
+subsets:
+- addresses:
+  - ip: 10.233.74.86
+    nodeName: node4
+    targetRef:
+      kind: Pod
+      name: flask-7758ff694-t6dwv
+      namespace: d-xolmatov
+      uid: a592c079-04d2-4aa7-8571-e37644a4314b
+  - ip: 10.233.75.22
+    nodeName: node2
+    targetRef:
+      kind: Pod
+      name: flask-7758ff694-6q4vz
+      namespace: d-xolmatov
+      uid: 8fbaa70d-c755-4fb2-a6f9-48d424a61cd2
+  ports:
+  - port: 5000
+    protocol: TCP

@@ -1,0 +1,26 @@
+NAMESPACE     NAME      READY   STATUS    RESTARTS   AGE     IP               NODE    NOMINATED NODE   READINESS GATES
+a-adxamov     nginx-1   1/1     Running   0          2m55s   10.233.97.140    node5   <none>           <none>
+a-adxamov     nginx-2   1/1     Running   0          107s    10.233.102.129   node1   <none>           <none>
+a-maxmudov    nginx1    1/1     Running   0          18m     10.233.74.77     node4   <none>           <none>
+a-maxmudov    nginx2    1/1     Running   0          16m     10.233.75.18     node2   <none>           <none>
+a-taniqulov   nginx-1   1/1     Running   0          23m     10.233.74.73     node4   <none>           <none>
+a-taniqulov   nginx-2   1/1     Running   0          23m     10.233.102.173   node1   <none>           <none>
+d-nurmatov    nginx1    1/1     Running   0          20m     10.233.75.67     node6   <none>           <none>
+d-nurmatov    nginx2    1/1     Running   0          20m     10.233.74.76     node4   <none>           <none>
+d-tursunov    nginx1    1/1     Running   0          17m     10.233.75.24     node2   <none>           <none>
+d-tursunov    nginx2    1/1     Running   0          17m     10.233.102.171   node1   <none>           <none>
+d-xolmatov    nginx1    1/1     Running   0          17m     10.233.75.68     node6   <none>           <none>
+d-xolmatov    nginx2    1/1     Running   0          17m     10.233.97.132    node5   <none>           <none>
+default       nginx-1   1/1     Running   0          3m8s    10.233.97.139    node5   <none>           <none>
+default       nginx1    1/1     Running   0          11m     10.233.75.70     node6   <none>           <none>
+default       nginx2    1/1     Running   0          10m     10.233.74.84     node4   <none>           <none>
+m-fayziev     nginx1    1/1     Running   0          26m     10.233.75.38     node2   <none>           <none>
+m-fayziev     nginx2    1/1     Running   0          26m     10.233.74.70     node4   <none>           <none>
+r-giyosov     nginx1    1/1     Running   0          18m     10.233.75.14     node2   <none>           <none>
+r-giyosov     nginx2    1/1     Running   0          18m     10.233.102.142   node1   <none>           <none>
+x-baxromov    nginx1    1/1     Running   0          23m     10.233.97.130    node5   <none>           <none>
+x-baxromov    nginx2    1/1     Running   0          23m     10.233.75.66     node6   <none>           <none>
+x-namozov     nginx1    1/1     Running   0          15m     10.233.75.69     node6   <none>           <none>
+x-namozov     nginx2    1/1     Running   0          15m     10.233.102.178   node1   <none>           <none>
+z-vakhobov    nginx1    1/1     Running   0          23m     10.233.75.10     node2   <none>           <none>
+z-vakhobov    nginx2    1/1     Running   0          22m     10.233.97.131    node5   <none>           <none>
